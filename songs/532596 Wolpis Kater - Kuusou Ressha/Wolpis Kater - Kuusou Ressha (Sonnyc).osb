@@ -1,0 +1,397 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"bg.jpg",320,240
+Sprite,Background,Centre,"sb\intro.jpg",320,240
+ S,0,20652,,0.627
+ F,0,20652,172709,1
+ C,0,152309,,255,255,255,180,200,210
+Sprite,Background,Centre,"sb\climax.jpg",320,240
+ S,0,172709,,0.627
+ F,0,172709,229108,1
+Sprite,Background,Centre,"sb\intro.jpg",-35,740
+ S,0,7624,,1.83
+ C,0,7624,,180,200,210
+ F,0,7624,11738,1
+ F,0,11738,1,0
+ F,0,235280,237336,1
+Sprite,Background,Centre,"sb\intro.jpg",20,160
+ S,0,11738,,1.1
+ C,0,11738,,200,200,200
+ F,0,11738,13795,1
+ F,0,13795,1,0
+ F,0,233223,235280,1
+Sprite,Background,Centre,"sb\intro.jpg",-489,700
+ S,0,13795,,1.83
+ F,0,13795,15852,1
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"sb\opening.jpg",320,240
+ S,0,424,,0.67
+ F,2,424,3167,0,1
+ F,0,3508,,1,0
+Sprite,Foreground,Centre,"girls.png",511,282
+ S,0,20652,,0.627
+ F,0,20652,196194,1
+ C,0,152309,,255,255,255,170,170,170
+ C,0,172709,,180,180,180,255,255,255
+Sprite,Foreground,Centre,"sb\0.png",320,225
+ S,0,3509,,0.33
+ F,0,3509,7623,1
+ F,0,7623,,1,0
+ F,0,31623,34366,1
+Sprite,Foreground,Centre,"sb\1.png",320,260
+ S,0,3509,,0.33
+ F,0,3509,7623,1
+ F,0,7623,,1,0
+ F,0,31623,34366,1
+Sprite,Foreground,Centre,"sb\8.png",320,225
+ S,0,37109,,0.33
+ F,0,37109,39852,1
+ F,0,39852,1,0
+ F,0,237337,241451,1
+Sprite,Foreground,Centre,"sb\9.png",320,260
+ S,0,37109,,0.33
+ F,0,37109,39852,1
+ F,0,39852,1,0
+ F,0,237337,241451,1
+Sprite,Foreground,Centre,"sb\2.png",320,225
+ S,0,7624,,0.33
+ F,0,7624,9680,1
+ F,0,9680,,1,0
+ F,0,229109,231165,1
+Sprite,Foreground,Centre,"sb\3.png",320,260
+ S,0,7624,,0.33
+ F,0,7624,9680,1
+ F,0,9680,,1,0
+ F,0,229109,231165,1
+Sprite,Foreground,Centre,"sb\4.png",320,240
+ S,0,9681,,0.33
+ F,0,9681,11737,1
+ F,0,11737,,1,0
+ F,0,231166,233222,1
+Sprite,Foreground,Centre,"sb\5.png",320,240
+ S,0,11738,,0.33
+ F,0,11738,13794,1
+ F,0,13794,,1,0
+ F,0,233223,235279,1
+Sprite,Foreground,Centre,"sb\6.png",320,240
+ S,0,13795,,0.33
+ F,0,13795,15851,1
+ F,0,15851,,1,0
+ F,0,235280,237336,1
+Sprite,Foreground,Centre,"sb\7.png",320,240
+ S,0,15852,,0.33
+ F,0,15852,17567,1
+Sprite,Foreground,Centre,"White.png",320,240
+ F,2,195509,196023,0,1
+ F,0,196194,198937,1,0
+Sprite,Foreground,Centre,"letterbox.jpg",320,-1
+ F,0,7624,15852,1
+ F,0,15852,,1,0
+ F,0,233223,237336,1
+Sprite,Foreground,Centre,"letterbox.jpg",320,475
+ F,0,7624,15852,1
+ F,0,15852,,1,0
+ F,0,233223,237336,1
+Sprite,Foreground,Centre,"sb\22.png",315,80
+ S,0,17910,,0.2
+ R,0,17910,,1.567
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\10.png",320,102
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\11.png",320,124
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\12.png",320,146
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\13.png",320,168
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\14.png",320,190
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\15.png",320,212
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\16.png",320,234
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\17.png",320,256
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\18.png",320,278
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\19.png",320,300
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\20.png",320,322
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\17.png",320,344
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\21.png",320,366
+ S,0,17910,,0.2
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\22.png",325,388
+ S,0,17910,,0.2
+ R,0,17910,,-1.567
+ F,0,17910,19281,1
+Sprite,Foreground,Centre,"sb\23.png",320,105
+ S,0,19967,,0.67
+ F,0,19967,26137,1
+ F,0,26137,,1,0
+ F,0,243509,245394,1
+Sprite,Foreground,Centre,"sb\24.png",320,175
+ S,0,19967,,0.67
+ F,0,19967,26137,1
+ F,0,26137,,1,0
+ F,0,243509,245394,1
+Sprite,Foreground,Centre,"sb\25.png",320,245
+ S,0,19967,,0.67
+ F,0,19967,26137,1
+ F,0,26137,,1,0
+ F,0,243509,245394,1
+Sprite,Foreground,Centre,"sb\26.png",320,315
+ S,0,19967,,0.67
+ F,0,19967,26137,1
+ F,0,26137,,1,0
+ F,0,243509,245394,1
+Sprite,Foreground,Centre,"sb\n.png",435,428
+ S,0,207166,,0.5
+ F,0,207166,212137,1
+Sprite,Foreground,Centre,"sb\a.png",458,428
+ S,0,207166,,0.5
+ F,0,207166,212137,1
+Sprite,Foreground,Centre,"sb\n.png",495,428
+ S,0,207166,,0.5
+ F,0,207166,212137,1
+ F,0,212137,212223,1
+Sprite,Foreground,Centre,"sb\a.png",518,428
+ S,0,207166,,0.5
+ F,0,207166,212137,1
+ F,2,212137,212180,1,0
+ MY,0,212137,212180,428,416
+ V,0,212137,212180,1,1,1,2
+Sprite,Foreground,Centre,"sb\n.png",555,428
+ S,0,207166,,0.5
+ F,0,207166,212137,1
+Sprite,Foreground,Centre,"sb\a.png",578,428
+ S,0,207166,,0.5
+ F,0,207166,212137,1
+Sprite,Foreground,Centre,"sb\d.png",598,428
+ S,0,207166,,0.5
+ F,0,207166,212137,1
+ F,0,212137,212223,1
+Sprite,Foreground,Centre,"sb\d.png",613,428
+ S,0,207166,,0.5
+ F,0,207166,212137,1
+ F,0,212137,212223,1
+Sprite,Foreground,Centre,"sb\n.png",435,428
+ S,0,212652,,0.5
+ F,0,212652,217280,1
+Sprite,Foreground,Centre,"sb\a.png",458,428
+ S,0,212652,,0.5
+ F,0,212652,217280,1
+Sprite,Foreground,Centre,"sb\n.png",495,428
+ S,0,212652,,0.5
+ F,0,212652,217280,1
+ F,0,217280,217366,1
+Sprite,Foreground,Centre,"sb\a.png",518,428
+ S,0,212652,,0.5
+ F,0,212652,217280,1
+ F,2,217280,217323,1,0
+ MY,0,217280,217323,428,416
+ V,0,217280,217323,1,1,1,2
+Sprite,Foreground,Centre,"sb\n.png",555,428
+ S,0,212652,,0.5
+ F,0,212652,217280,1
+Sprite,Foreground,Centre,"sb\a.png",578,428
+ S,0,212652,,0.5
+ F,0,212652,217280,1
+Sprite,Foreground,Centre,"sb\d.png",598,428
+ S,0,212652,,0.5
+ F,0,212652,217280,1
+ F,0,217280,217366,1
+Sprite,Foreground,Centre,"sb\d.png",613,428
+ S,0,212652,,0.5
+ F,0,212652,217280,1
+ F,0,217280,217366,1
+Sprite,Foreground,Centre,"sb\n.png",435,428
+ S,0,218137,,0.5
+ F,0,218137,223109,1
+Sprite,Foreground,Centre,"sb\a.png",458,428
+ S,0,218137,,0.5
+ F,0,218137,223109,1
+Sprite,Foreground,Centre,"sb\n.png",495,428
+ S,0,218137,,0.5
+ F,0,218137,223109,1
+ F,0,223109,223194,1
+Sprite,Foreground,Centre,"sb\a.png",518,428
+ S,0,218137,,0.5
+ F,0,218137,223109,1
+ F,2,223109,223152,1,0
+ MY,0,223109,223152,428,416
+ V,0,223109,223152,1,1,1,2
+Sprite,Foreground,Centre,"sb\n.png",555,428
+ S,0,218137,,0.5
+ F,0,218137,223109,1
+Sprite,Foreground,Centre,"sb\a.png",578,428
+ S,0,218137,,0.5
+ F,0,218137,223109,1
+Sprite,Foreground,Centre,"sb\d.png",598,428
+ S,0,218137,,0.5
+ F,0,218137,223109,1
+ F,0,223109,223194,1
+Sprite,Foreground,Centre,"sb\d.png",613,428
+ S,0,218137,,0.5
+ F,0,218137,223109,1
+ F,0,223109,223194,1
+Sprite,Foreground,Centre,"sb\n.png",435,428
+ S,0,223623,,0.5
+ F,0,223623,228594,1
+Sprite,Foreground,Centre,"sb\a.png",458,428
+ S,0,223623,,0.5
+ F,0,223623,228594,1
+Sprite,Foreground,Centre,"sb\n.png",495,428
+ S,0,223623,,0.5
+ F,0,223623,228594,1
+ F,0,228594,228680,1
+Sprite,Foreground,Centre,"sb\a.png",518,428
+ S,0,223623,,0.5
+ F,0,223623,228594,1
+ F,2,228594,228637,1,0
+ MY,0,228594,228637,428,416
+ V,0,228594,228637,1,1,1,2
+Sprite,Foreground,Centre,"sb\n.png",555,428
+ S,0,223623,,0.5
+ F,0,223623,228594,1
+Sprite,Foreground,Centre,"sb\a.png",578,428
+ S,0,223623,,0.5
+ F,0,223623,228594,1
+Sprite,Foreground,Centre,"sb\d.png",598,428
+ S,0,223623,,0.5
+ F,0,223623,228594,1
+ F,0,228594,228680,1
+Sprite,Foreground,Centre,"sb\d.png",613,428
+ S,0,223623,,0.5
+ F,0,223623,228594,1
+ F,0,228594,228680,1
+Sprite,Foreground,Centre,"sb\30.png",320,50
+ F,0,86470,89222,1
+ S,0,86480,,0.3
+Sprite,Foreground,Centre,"sb\31.png",320,75
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\32.png",320,100
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\13.png",320,125
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\14.png",320,150
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\13.png",320,175
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\33.png",320,200
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\34.png",320,225
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\14.png",320,250
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\35.png",320,275
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\36.png",320,300
+ S,0,86480,,0.3
+ F,0,86480,89222,1
+Sprite,Foreground,Centre,"sb\37.png",320,50
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\38.png",320,75
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\39.png",320,100
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\12.png",320,125
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\37.png",320,150
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\38.png",320,175
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\40.png",320,200
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\39.png",320,225
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\41.png",320,250
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\14.png",320,275
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\35.png",320,300
+ S,0,89223,,0.3
+ F,0,89223,91965,1
+Sprite,Foreground,Centre,"sb\42.png",320,50
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\43.png",320,75
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\44.png",320,100
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\45.png",320,125
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\46.png",320,150
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\47.png",320,175
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\48.png",320,200
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\49.png",320,225
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\31.png",320,250
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\50.png",320,275
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\11.png",320,300
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\18.png",320,325
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\35.png",320,350
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\15.png",320,375
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+Sprite,Foreground,Centre,"sb\41.png",320,400
+ S,0,91966,,0.3
+ F,0,91966,96765,1
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
