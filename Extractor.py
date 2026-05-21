@@ -4,6 +4,25 @@ from pathlib import Path
 import librosa
 import numpy as np
 
+import pickle
+
+def save_extracted(all_maps, audio_cache, output_path="processed/extracted.pkl"):
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    data = {
+        "all_maps": all_maps,
+        "audio_cache": audio_cache
+    }
+    
+    with open(output_path, "wb") as f:
+        pickle.dump(data, f, protocol=pickle.HIGHEST_PROTOCOL)
+        
+def load_extracted(path = "processed/extracted.pkl"):
+    with open(path, "rb") as f:
+        data = pickle.load(f)
+    return data["all_maps"], data["audio_cache"]
+
 def extract_audio(path):
     # sr and other configuration comes from chat
     y, sr = librosa.load(str(path), sr=22050, mono=True)
@@ -200,6 +219,8 @@ def extract_dataset(folder_path="songs"):
 
 if __name__ == "__main__":
     all_maps, audio_cache = extract_dataset("songs")
+    save_extracted(all_maps, audio_cache)
+    
     print("maps:", len(all_maps))
     print("audio files:", len(audio_cache))
 
