@@ -1,3 +1,6 @@
+# Parsing .osu, loading audio, saving/loading extracted data.
+
+
 # imports
 from pathlib import Path
 
